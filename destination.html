@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/shared/logo.svg"/>
   <title>Frontend Mentor | Space tourism website</title>
   <link rel="stylesheet" href="styles/index.css"/>
+  <link rel="stylesheet" href="styles/destinations.css"/>
 </head>
 <body>
   <header id="main-header">
@@ -14,8 +15,8 @@
       <nav class="menu-desktop">
         <div class="hr-menu"></div>
         <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link is-on-page" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="destination.html">Destination</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link is-on-page" href="destination.html">Destination</a></li>
           <li class="nav-item"><a class="nav-link" href="crew.html">Crew</a></li>
           <li class="nav-item"><a class="nav-link" href="technology.html">Technology</a></li>
         </ul>
@@ -34,17 +35,27 @@
           <li class="nav-item"><a class="nav-link" href="technology.html">Technology</a></li>
         </ul>
       </nav>
-
   </header>
-  <main class="home-main">
-    <div class="home-text-container">
-      <h1 class="home-text-legend">So, you want to travel to</h1>
-      <h2 class="home-highlight">space</h2>
-      <p class="home-text">Let's face it; if you want to go to space, you might as well genuinely go to
-        outer space and not hover kind of on the edge of it. Well sit back, and relax
-        because we'll give you a truly out of this world experience!</p>
+  <main id="destination-main">
+    01 Pick your destination
+    <div class="planets-info-conteiner">
+      <ul class="select-planet">
+        <li class="planet-item">Moon</li>
+        <li class="planet-item">Mars</li>
+        <li class="planet-item">Europa</li>
+        <li class="planet-item">Titan</li>
+      </ul>
+      <div class="planet-info">
+        <h1>Mars</h1>
+        Don't forget to pack your hiking boots. You'll need them to tackle Olympus Mons,
+        the tallest planetary mountain in our solar system. It's two and a half times
+        the size of Everest!
+        Avg. distance
+        225 mil. km
+        Est. travel time
+        9 months
+      </div>
     </div>
-    <a href="destinatios.html" class="explore-btn">Explore</a>
   </main>
   <script src="scripts/index.jsx"></script>
 </body>

@@ -3,18 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/shared/logo.svg">
   <title>Frontend Mentor | Space tourism website</title>
+  <link rel="stylesheet" href="styles/index.css"/>
+  <link rel="stylesheet" href="styles/technology.css"/>
 </head>
 <body>
+  <header id="main-header">
+    <div class="logo"><img src="assets/shared/logo.svg" alt="Logo"/></div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+      <nav class="menu-desktop">
+        <div class="hr-menu"></div>
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="destination.html">Destination</a></li>
+          <li class="nav-item"><a class="nav-link" href="crew.html">Crew</a></li>
+          <li class="nav-item"><a class="nav-link is-on-page" href="technology.html">Technology</a></li>
+        </ul>
+      </nav>
 
+      <div class="open-menu-icon"><img src="assets/shared/icon-hamburger.svg" alt="Icon to open menu"/></div>
+
+      <nav class="menu-mobile">
+
+        <div class="close-menu-icon"><img src="assets/shared/icon-close.svg" alt="Icon to close menu"/></div>
+
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="destination.html">Destination</a></li>
+          <li class="nav-item"><a class="nav-link" href="crew.html">Crew</a></li>
+          <li class="nav-item"><a class="nav-link" href="technology.html">Technology</a></li>
+        </ul>
+      </nav>
+  </header>
   03 Space launch 101
 
   1
