@@ -1,4 +1,5 @@
 @charset "UTF-8";
 body {
   background-image: url("../assets/destination/background-destination-desktop.jpg");
+  height: 100vh;
 }
