@@ -22,9 +22,9 @@ fetch('documents/data.json')
             destination_info.classList.add('fade-in');
         }
         selectDestination(0);
-        destination_item.forEach(item =>{
+        destination_item.forEach((item, index) =>{
             item.addEventListener('click', function(){
-                selectDestination(this.value);
+                selectDestination(index);
                 destination_item.forEach(otherItem =>{
                     otherItem.classList.remove('destination-selected');
                 });
