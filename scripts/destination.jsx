@@ -31,5 +31,4 @@ fetch('documents/data.json')
                 this.classList.add('destination-selected');
             });
         });
-    })
-    .catch(error => console.error("Ops!, houve um erro, recarregue a página ou tente mais tarde.", error));
+    }).catch(error => console.error("Ops! Houve um erro, recarregue a página ou volte mais tarde.", error));
